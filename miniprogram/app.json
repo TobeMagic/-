@@ -1,6 +1,11 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/out/out",
+    "pages/me/me",
+    "pages/camera/camera",
+    "pages/result/result",
+    "custom-tab-bar/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -8,6 +13,31 @@
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "草莓病虫害识别",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/lib.png",
+        "iconPath": "images/lib.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/camera.png",
+        "iconPath": "images/camera.png",
+        "pagePath": "pages/camera/camera",
+        "text": "识别"
+      },
+      {
+        "selectedIconPath": "images/me.png",
+        "iconPath": "images/me.png",
+        "pagePath": "pages/me/me",
+        "text": "我"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2"

@@ -1,0 +1,5 @@
+<camera mode="normal" device-position="back" flash="auto" class="camera">
+  <cover-image src="../../images/photo.png" class="button" bindtap="shoot"></cover-image>
+  <cover-image src="../../images/back.png" class="button2" bindtap="back"></cover-image>
+  <cover-image src="../../images/album.png" class="album" bindtap="album"></cover-image>
+</camera>

@@ -1,7 +1,21 @@
 <view class="top">
-  <swiper indicator-dots="true" autoplay="true" interval="2000" duration="500" style="height: 180px;">
+  <swiper indicator-dots="true" autoplay="true" interval="2000" duration="500" style="height: 200px;width: 94%;margin-left: 3%;">
       <swiper-item wx:for="{{srcs}}" wx:for-item="item" wx:key="key">
-        <image src="{{item}}" style="width: 100%; height: 180px;" binderror="imageOnloadError" mode="scaleToFill"></image>
+        <image src="{{item}}" style="width: 100%; height: 180px;" binderror="imageOnloadError" mode="scaleToFill" bindtap="preview" data-swi="{{index}}"></image>
       </swiper-item>
+      <!-- <swiper-item wx:for="{{dic}}" wx:for-item="item" wx:key="key">
+        <image src="{{item.pic}}" style="width: 100%; height: 180px;" binderror="imageOnloadError" mode="scaleToFill" bindtap="goToUrl"></image>
+      </swiper-item> -->
   </swiper>
+</view>
+
+<view class="news">
+  <view class="news_list" wx:for="{{dic}}" wx:for-item="item" wx:key="key">
+    <view class="news_card" bindtap="goToUrl" data-url="{{item.url}}">
+      <view class="title">
+        {{item.title}}
+      </view>
+      <cover-image src="{{item.pic}}" class="news_pic"></cover-image>
+    </view>
+  </view>
 </view>
