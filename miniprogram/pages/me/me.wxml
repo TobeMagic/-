@@ -1,2 +1,32 @@
-<!--pages/me/me.wxml-->
-个人信息
+<view class="top-content">
+	<view class="touxiang">
+		<open-data type="userAvatarUrl"></open-data>
+	</view>
+	<view class="nickname">
+		<open-data type="userNickName"></open-data>
+	</view>
+</view>
+
+<view class="list">
+	<navigator class="list-content" url="/pages/opinion/opinion">
+		<view class="list-letf">建议与反馈</view>
+		<view class='arrow'></view>
+	</navigator>
+
+	<navigator class="list-content" url="/pages/record/record">
+		<view class="list-letf">历史记录</view>
+		<view class='arrow'></view>
+	</navigator>
+
+	<navigator class="list-content" url="/pages/update-log/update-log">
+		<view class="list-letf">更新日志</view>
+		<view class='arrow'></view>
+	</navigator>
+
+	<button open-type="share" style="padding:0;width:100%;font-weight:inherit;background-color:#fff;">
+		<view class="list-content" style="border-color: transparent;">
+			<view class="list-letf">分享小程序给朋友</view>
+			<view class='arrow'></view>
+		</view>
+	</button>
+</view>

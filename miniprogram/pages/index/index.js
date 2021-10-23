@@ -6,7 +6,11 @@ Page({
     url:[],
     dic:[],
   },
-
+  photos:function(){
+    wx.switchTab({
+      url: '/pages/camera/camera',
+    })
+  },
   onLoad: function(){
     var that = this
     db.collection('imageList').where({

@@ -1,4 +1,7 @@
 <view class="top">
+  <image src="../../images/index.png" bindtap="photos"></image>
+</view>
+<view>
   <swiper indicator-dots="true" autoplay="true" interval="2000" duration="500" style="height: 200px;width: 94%;margin-left: 3%;">
       <swiper-item wx:for="{{srcs}}" wx:for-item="item" wx:key="key">
         <image src="{{item}}" style="width: 100%; height: 180px;" binderror="imageOnloadError" mode="scaleToFill" bindtap="preview" data-swi="{{index}}"></image>

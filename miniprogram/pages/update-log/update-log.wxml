@@ -1,0 +1,13 @@
+<view class="log-list">
+  
+  <view class="log-content">
+    <view class="log-title">2021.10版（v1.0.0）</view>
+    <view class="log-type">佛大草莓病虫害识别系统诞生</view>
+    <view class="log-details">佛大草莓病虫害识别系统诞生，主要包括草莓病虫害识别、草莓病虫害百科等功能，更多功能敬请期待！</view>
+  </view>
+</view>
+
+<view class="copyright">
+  <view class="copyright-text">佛大草莓病虫害识别团队fosustrawberry@163.com</view>
+  <view class="copyright-text">Copyright @2021 All Rights Reserved</view>
+</view>

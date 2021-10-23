@@ -8,22 +8,22 @@ page{
   height: 100%;
 }
 .button{
-  width: 20%;
-  height: 10%;
+  width: 16%;
+  height: 7%;
   position: absolute;
   top: 80%;
   left: 40%;
 }
 .button2{
-  width: 20%;
-  height: 10%;
+  width: 16%;
+  height: 7%;
   position: absolute;
   top: 87%;
   left: 5%;
 }
 .album{
-  width: 20%;
-  height: 10%;
+  width: 16%;
+  height: 7%;
   position: absolute;
   top: 87%;
   left: 75%;

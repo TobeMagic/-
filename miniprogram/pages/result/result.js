@@ -3,6 +3,9 @@ Page({
   data: {
     photo:""
 },
+onLoad:function(){
+  
+},
 onReady: function () {
 var target=this;
 /*必须要这一行*/ 
